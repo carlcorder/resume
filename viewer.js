@@ -10051,7 +10051,7 @@ exports.ViewHistory = ViewHistory;
 "use strict";
 
 
-var DEFAULT_URL = 'Carl_Corder_Resume.pdf';
+var DEFAULT_URL = 'Carl L. Corder';
 ;
 var pdfjsWebApp = void 0;
 {
