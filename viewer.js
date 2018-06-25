@@ -352,7 +352,7 @@ function isDataSchema(url) {
   return url.substr(i, 5).toLowerCase() === 'data:';
 }
 function getPDFFileNameFromURL(url) {
-  var defaultFilename = 'Carl_Corder_Resume.pdf';
+  var defaultFilename = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'Carl_Corder_Resume.pdf';
 
   if (isDataSchema(url)) {
     console.warn('getPDFFileNameFromURL: ' + 'ignoring "data:" URL for performance reasons.');
